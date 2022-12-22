@@ -1,0 +1,14 @@
+body{
+ height: 100vh;
+ font-family: 'Hack-ZeroSlash';
+}
+.box{
+    background-image: url('guess.jpg');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:   multiply;
+}
+
+input:disabled{
+    background-color: white; 
+}
