@@ -36,7 +36,7 @@ guessBtn.addEventListener('click',function(){
 
    if(guess === winningNum){ 
 
-    gameOver(true,`You're correct! the winning number is ${winningNum},color`)
+    gameOver(true,`You're correct! the winning number is ${winningNum}`) 
 
    }else{
     // Wrong number
